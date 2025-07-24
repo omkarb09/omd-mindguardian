@@ -1,4 +1,4 @@
-pinecone-client
+pinecone
 langchain
 sentence-transformers
 langchain_groq
