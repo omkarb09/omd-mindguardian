@@ -24,7 +24,7 @@ class Chatbot:
         self.embedding_model = load_embedding_model()
         self.context=None
 
-        llm_model = 'llama-3.1-70b-versatile'
+        llm_model = 'llama-3.3-70b-versatile'
         # Initialize Groq Langchain chat object and conversation
         self.groq_chat = ChatGroq(groq_api_key=os.environ['GROQ_API_KEY'], model_name=llm_model)
 
